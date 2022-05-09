@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ErrorContextProvider from './context/HandleApplicationErrorContext';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ErrorContextProvider>
+      <App />
+    </ErrorContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

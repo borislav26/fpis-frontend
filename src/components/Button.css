@@ -1,0 +1,29 @@
+.button {
+    border: none;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.95);
+    cursor: pointer;
+    padding: 2rem 4rem;
+    background: rgb(231, 198, 198);
+    text-align: center;
+    display: inline-block;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    will-change: transform;
+    letter-spacing: 0.05rem;
+    position: relative;
+    background: white;
+    color: #401aff;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+    border-radius: 0.3rem;
+    z-index: 1;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.button:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    transform: scale(0.95);
+  }

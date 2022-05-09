@@ -1,0 +1,56 @@
+.datatable-crud-demo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.datatable-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.datatable-actions {
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding: 10px;
+    padding-right: 30px;
+}
+
+.add-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.add-dialog-first-row {
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.label {
+    margin-right: 10px;
+}
+
+.label-2 {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.label-2-item {
+    flex-grow: 1;
+    align-self: center;
+}
+
+.add-dialog-third-row {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.hidden-item {
+    display: none;
+}
